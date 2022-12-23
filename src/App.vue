@@ -29,7 +29,6 @@
       </div>
     </div>
   </div>
-  <a v-if="$route.name === 'download'" class="btn btn-dark m-5 position-fixed bottom-0 end-0 translate-end" onclick="this.href='data:text/html;charset=UTF-8,'+encodeURIComponent(document.documentElement.outerHTML)" href="#" download="page.html">Download Your Website</a>
 </template>
 
 <script>

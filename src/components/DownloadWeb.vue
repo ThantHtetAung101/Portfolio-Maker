@@ -3,6 +3,7 @@
         <component :color="color" v-for="(component, index) in components" :key="index" :component="component"
             v-bind:is="component.componentName">
         </component>
+        <a class="d-none" onclick="this.href='data:text/html;charset=UTF-8,'+encodeURIComponent(document.documentElement.outerHTML)" href="#" id="download" download="page.html"></a>
     </div>
 </template>
 
@@ -24,6 +25,9 @@ export default {
     computed: {
         ...mapGetters(['components', 'componentsNames', 'componentCount'])
     },
+    mounted() {
+        document.getElementById("download").click()
+    }
 }
 </script>
 
