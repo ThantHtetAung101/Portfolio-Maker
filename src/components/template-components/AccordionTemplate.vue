@@ -1,6 +1,6 @@
 <template>
     <div class="ms-3 w-50">
-        <h3 class="fw-semibold mt-5">{{ component.heading }}</h3>
+        <h3 class="fw-semibold mt-5" :style="{ color: color === '#ffffff' ? '#000000' : '#ffffff' }">{{ component.heading }}</h3>
         <div class="accordion mt-3" id="accordionExample">
             <div class="accordion-item">
                 <h2 class="accordion-header" id="headingOne">
@@ -44,6 +44,7 @@
 <script>
 export default {
     props: {
+        color: String,
         component: {
             type: Object
         }
