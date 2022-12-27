@@ -30,7 +30,7 @@
                                     </div>
                                     <div class="col-lg-6">
                                         <select class="form-select mt-3" v-model="component.btnTheme">
-                                            <option selected>Choose your card background theme</option>
+                                            <option selected>Choose your button theme</option>
                                             <option value="btn-light">Light</option>
                                             <option value="btn-dark">Dark</option>
                                             <option value="btn-primary">Purple</option>
