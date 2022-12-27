@@ -15,6 +15,7 @@
                         </p>
                     </div>
                 </div>
+                <button :class="['btn ms-3', component.btnTheme]">{{ component.button }}</button>
             </div>
         </div>
     </div>
