@@ -1,5 +1,5 @@
 <template>
-    <div class="vh-100" :style="{ backgroundColor: color }">
+    <div class="h-100" :style="{ backgroundColor: color }">
         <component :color="color" v-for="(component, index) in components" :key="index" :component="component"
             v-bind:is="component.componentName">
         </component>
