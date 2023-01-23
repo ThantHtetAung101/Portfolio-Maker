@@ -18,7 +18,7 @@
                     </a>
                 </div>
                 <div class="row">
-                    <a href="https://thantpersonalportfolio.tk/" target="_blank" class="link-primary text-decoration-none">
+                    <a href="https://thant-htet-aung.netlify.app/" target="_blank" class="link-primary text-decoration-none">
                         <span class="fw-normal">My Portfolio</span>
                     </a>
                 </div>
